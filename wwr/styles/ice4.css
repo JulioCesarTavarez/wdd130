@@ -1,0 +1,29 @@
+body{
+    background-color: pink;
+    
+}
+
+
+main{
+    width: 1450px;
+    text-align: center;
+
+}
+
+div:hover{
+    color:black
+}
+
+ol{
+    align-items: center;
+    color: black;
+}
+
+img{
+    align-items: center;
+}
+
+p{
+    text-align: center;
+    color: white;
+}
