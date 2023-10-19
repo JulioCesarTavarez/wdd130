@@ -1,0 +1,13 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+
+.box2{
+    background-color: gray;
+}
+.box4{
+    background-color: grey;
+    color: red;
+}
