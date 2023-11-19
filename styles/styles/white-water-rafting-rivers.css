@@ -141,7 +141,7 @@ nav {
     font-family: 'Raleway', 'mooli';
     font-size: 2em;
     margin-top: 10px;
-    content: center;
+    text-align: center;
 }
 .home-grid{
     display: grid;
