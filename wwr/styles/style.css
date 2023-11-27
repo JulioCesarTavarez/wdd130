@@ -213,6 +213,54 @@ h4{
     transform: scale(1.1);
 }
 
+/* Rivers CSS */
+
+.river-card {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: steelblue;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.river-card:nth-of-type(1) {
+    margin-top: 2%;
+}
+.river-card:nth-of-type(2) {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #0DC5FC;
+}
+
+.river-card img {
+    width: 70%;
+    grid-column: 1/2;
+    grid-row: 1/4;
+    justify-self: center;
+    align-self: center;
+}
+
+.river-card h2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.river-info {
+    padding: 5%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.river-button {
+    margin-bottom: 3%;
+    justify-self: center;
+    width: 50%;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+/* Media Query */
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
@@ -253,5 +301,13 @@ h4{
     }
     footer {
         margin-top: 25px;
+    }
+
+    /* Rivers Page */
+    .river-card {
+        display: block;
+    }
+    .river-card img {
+        padding-top: 3%;
     }
 }
